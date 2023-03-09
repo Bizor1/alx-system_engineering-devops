@@ -1,2 +1,5 @@
 #!/bin/bash
 echo "The effective username is: $(whoami)"
+chmod +x effective-username.sh
+./effective-username.sh
+hdjs
