@@ -1,12 +1,13 @@
 #!/bin/bash
+su betty
 
-# check if user betty exists
-if id -u betty >/dev/null 2>&1; then
-    # switch to betty
-    su betty
-else
-    echo "User betty does not exist"
-fi
-chmod +x switch-to-betty.sh
-./switch-to-betty.sh
-hk
+# # check if user betty exists
+# if id -u betty >/dev/null 2>&1; then
+#     # switch to betty
+#     su betty
+# else
+#     echo "User betty does not exist"
+# fi
+# chmod +x switch-to-betty.sh
+# ./switch-to-betty.sh
+# hk
