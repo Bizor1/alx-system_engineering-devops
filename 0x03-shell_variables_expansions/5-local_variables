@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(compgen -v) echo $(compgen -A function) echo $(env | cut -f1 -d=)
+echo $(compgen -v | tr '\n' ' ') $(compgen -A function | tr '\n' ' ') $(env | cut -f1 -d= | tr '\n' ' ')
