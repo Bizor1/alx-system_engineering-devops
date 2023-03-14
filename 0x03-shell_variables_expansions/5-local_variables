@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(compgen -v); echo $(compgen -A function); echo $(env | cut -f1 -d=)
