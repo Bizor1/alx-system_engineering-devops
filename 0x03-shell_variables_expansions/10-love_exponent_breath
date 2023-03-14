@@ -1,2 +1,2 @@
 #!/bin/bash
-python -c "print(float($BREATH)**float($LOVE))"
+echo $(echo "e($LOVE*l($BREATH))" | bc -l)
